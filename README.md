@@ -8,7 +8,7 @@ For the foot segmentation we employed "traditional" computer vision techniques, 
 The pipeline was able to output the cropped foot, depicting wounded regions in different colors depending on the type of tissue and the corresponding "percentage" of the foot afected.
 
 <p float="left">
-  <img src="results/skin.jpg" width="400" />
-  <img src="results/final.jpg" width="400" />
+  <img src="./results/skin.jpg" width="400" />
+  <img src="./results/final.jpg" width="400" />
 </p>
 
