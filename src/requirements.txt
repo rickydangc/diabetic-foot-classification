@@ -1,0 +1,8 @@
+numpy
+pathlib
+datetime
+cv2
+matplotlib
+Pillow
+scipy
+scikit-image
