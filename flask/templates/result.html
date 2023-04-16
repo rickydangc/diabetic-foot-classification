@@ -14,7 +14,10 @@ Prediction - Diabetic Foot Classification
     <header class="text-white text-center">
         <h1 class="display-5">Prediction</h1>
         {% if predictions %}
-        <h2 class="display-4 text-dark font-weight-bold">{{predictions}}</h2>
+        <h2 class="display-10 text-dark font-weight-normal">{{predictions[0]}}<br>{{predictions[1]}}<br>{{predictions[2]}}</h2>
+        <h3>Display Processed Image</h3>
+{#        <img src={{ imagesend }} alt="Image" width="1000" height="1000">#}
+        <div class="image-area mt-10"><img alt="" class="img-fluid rounded shadow-sm mx-auto d-block" src={{ imagesend }}></div>
         {% else %}
         <h2 class="display-4 text-dark font-weight-bold">{{err}}</h2>
         {% endif %}
